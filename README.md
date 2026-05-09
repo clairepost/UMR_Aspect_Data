@@ -7,3 +7,7 @@ We have three TSV files that hold the data, [UMR aspect data](https://github.com
 
 ## PDF 
 The [aspect annotition](https://github.com/clairepost/UMR_Aspect_Data/blob/main/Aspect%20Annotation.pdf) PDF was a learning tool provided by one of the annotators for the others to help assist in understanding and improve agreement in annotation. 
+
+
+## VTT
+The [difficult example meeting transcript](https://github.com/clairepost/UMR_Aspect_Data/blob/main/Difficult%20example%20meeting%20transcript.vtt) is the transcript from the Zoom meeting in which some of the annotators met with experts to discuss the [difficult examples](https://github.com/clairepost/UMR_Aspect_Data/blob/main/difficult_examples.tsv) and determine their labels.
