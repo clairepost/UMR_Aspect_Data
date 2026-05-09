@@ -1,0 +1,2338 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:06.539
+Paul Bontempo: drive to that, just the, like, basic lattice that we chose, and maybe the, like, initial guidelines that Binet drew up.
+
+2
+00:00:06.850 --> 00:00:10.519
+Paul Bontempo: Do you want me to get the ones Binet had, or just the ones from the…
+
+3
+00:00:10.710 --> 00:00:12.110
+Paul Bontempo: the GitHub for the.
+
+4
+00:00:12.110 --> 00:00:15.180
+Bill Croft: Yeah, I was thinking of the GitHub, because that's the one that…
+
+5
+00:00:15.340 --> 00:00:19.779
+Bill Croft: you know, mostly… well, Megan and Jens wrote up.
+
+6
+00:00:20.110 --> 00:00:22.459
+Julia Bonn: Well, obviously, based on a lot of discussions.
+
+7
+00:00:24.070 --> 00:00:36.270
+Bill Croft: And, yeah, I don't know if, you know, anything that you guys have done in-house, I wouldn't have seen, but… because I'm sure what it'll come down to is there's going to be, like… I'll say something, and you'll say, but that's not what the guidelines say, or whatever.
+
+8
+00:00:36.560 --> 00:00:40.209
+Paul Bontempo: Right, yeah, Binet had definitely, I think she made some…
+
+9
+00:00:40.550 --> 00:00:47.099
+Paul Bontempo: modifications, because we were working from a much smaller subset of the overall lattice, we had chosen,
+
+10
+00:00:47.760 --> 00:00:50.219
+Paul Bontempo: 6 labels plus the none label.
+
+11
+00:00:50.220 --> 00:00:51.000
+Bill Croft: Yeah, yeah.
+
+12
+00:00:51.000 --> 00:00:52.710
+Benét Post: and lettuce. Yeah. Yeah.
+
+13
+00:00:53.270 --> 00:01:01.779
+Benét Post: There's examples and stuff on there that weren't in the guidelines, just based on other annotations that we had done throughout time.
+
+14
+00:01:02.260 --> 00:01:04.029
+Paul Bontempo: Oh, sweet, thank you, you're already ahead of me.
+
+15
+00:01:04.030 --> 00:01:14.850
+Bill Croft: Yeah, okay, well, that's not an issue, I just want to know where I'm working from, because I'll just give you my views, and that'll probably mostly reflect what the GitHub guidelines say.
+
+16
+00:01:16.210 --> 00:01:19.050
+Bill Croft: But then, even then, I may not remember some of the kind of…
+
+17
+00:01:19.280 --> 00:01:22.150
+Bill Croft: Borderline case decisions that we made.
+
+18
+00:01:22.430 --> 00:01:30.210
+Bill Croft: And as I said, it was Jens and Megan who actually wrote up the guidelines and did the, you know, the sort of sample coding, the pilot
+
+19
+00:01:30.520 --> 00:01:32.190
+Bill Croft: annotations here.
+
+20
+00:01:32.850 --> 00:01:34.820
+Bill Croft: And that was a long time ago, too.
+
+21
+00:01:36.050 --> 00:01:42.109
+Paul Bontempo: Yeah, so then should we… should we go over those choices first, and then talk about these 8 examples, or…
+
+22
+00:01:42.110 --> 00:01:51.059
+Bill Croft: No, no, let's just go through the 8, and then as things come up, then you'll, you know, tell me what your… how you've been approaching the,
+
+23
+00:01:51.350 --> 00:01:53.059
+Bill Croft: The problem, the issue that's…
+
+24
+00:01:53.060 --> 00:01:53.520
+Paul Bontempo: combination.
+
+25
+00:01:53.520 --> 00:01:54.780
+Bill Croft: The example gives.
+
+26
+00:01:55.270 --> 00:01:55.980
+Paul Bontempo: Gotcha.
+
+27
+00:01:56.150 --> 00:01:58.909
+Paul Bontempo: Yeah, that sounds like a good plan, and yeah, no, thank you, Binet.
+
+28
+00:01:58.910 --> 00:01:59.300
+Benét Post: Hmm.
+
+29
+00:01:59.610 --> 00:02:08.809
+Paul Bontempo: Yeah. Refer back to this. I was gonna ask which one it was specifically, and you got it covered. Well, so, let's, I guess, just run into them. So, if you guys…
+
+30
+00:02:09.190 --> 00:02:22.680
+Paul Bontempo: In case you… it isn't obvious, we've got both Paul and August sharing. August is going to pull up the guidelines, Paul has the examples. There should be tabs at the top of your Zoom window to go between the…
+
+31
+00:02:22.680 --> 00:02:26.110
+Bill Croft: Okay, yeah, well, I also just pulled up Venice.
+
+32
+00:02:26.230 --> 00:02:35.159
+Bill Croft: slides on my… from the chat, and then I also have the GitHub guidelines up in my, browser as well.
+
+33
+00:02:35.160 --> 00:02:36.460
+Paul Bontempo: Perfect. Great.
+
+34
+00:02:37.310 --> 00:02:55.190
+Paul Bontempo: Okay, that's good. Cool. So, yeah, the formatting we have here is the… this is the sentence that we're annotating, the preceding, cell is the previous sentence for context, and then we can expand the graph here, and then we've identified the…
+
+35
+00:02:55.410 --> 00:03:08.010
+Paul Bontempo: you know, predicate that we're annotating, and then we have here between 2 and 5 rounds of annotation, depending on how many tiebreaks were needed. And right here we have what is the current
+
+36
+00:03:08.010 --> 00:03:22.539
+Paul Bontempo: like, final label, or what we have as… what we… where we want to fill our official labels. So we initially automatically just pulled from the rightmost label of these initial five to fill this, and then August and I went back through and…
+
+37
+00:03:22.600 --> 00:03:25.060
+Paul Bontempo: Filled in, according to what we thought.
+
+38
+00:03:25.130 --> 00:03:28.850
+Paul Bontempo: If that automatically pulled label needed to be.
+
+39
+00:03:29.510 --> 00:03:34.740
+Paul Bontempo: redone, and that's… we were meeting, pretty regularly over the summer with Alexis and Binet.
+
+40
+00:03:35.080 --> 00:03:49.470
+Paul Bontempo: To discuss some of these, and then these cases were pulled from places where the four of us couldn't really find a good answer. So this one, the sentence is, I believe this is Little Prince. Clap your hands one against the other. The conceited man now directed him.
+
+41
+00:03:49.850 --> 00:03:51.410
+Paul Bontempo: And the predicate is CLAP.
+
+42
+00:03:51.950 --> 00:04:02.250
+Paul Bontempo: which we labeled as performance, but we ended up, I think, discussing, and realizing that because it's this repeated action that
+
+43
+00:04:02.450 --> 00:04:12.089
+Paul Bontempo: doesn't necessarily have a, defined endpoint. We added a second choice label, of Endeavor, but I think…
+
+44
+00:04:12.210 --> 00:04:13.890
+Paul Bontempo: from what I remember, we had some
+
+45
+00:04:14.230 --> 00:04:21.829
+Paul Bontempo: Disagreement about which of those seemed more likely, given the, the nature of the clapping.
+
+46
+00:04:23.270 --> 00:04:24.010
+Paul Bontempo: imperative.
+
+47
+00:04:24.770 --> 00:04:29.720
+Bill Croft: Yeah, so looking at the, at the GitHub lattice.
+
+48
+00:04:30.130 --> 00:04:37.640
+Bill Croft: I see that, and I actually noticed this the other day when we pulled it up, I guess 2 weeks ago, or whatever, at that,
+
+49
+00:04:38.150 --> 00:04:42.050
+Bill Croft: Several factors are listed as endeavors, so that would be CLAP, you know.
+
+50
+00:04:42.250 --> 00:04:47.760
+Bill Croft: Where you… it creates a sound, and it comes and goes, so it's no longer there.
+
+51
+00:04:47.870 --> 00:04:51.220
+Bill Croft: So… I don't know in the context.
+
+52
+00:04:51.420 --> 00:04:56.159
+Bill Croft: I mean, the context is plop your hands one against the other, and does it mean, like, this?
+
+53
+00:04:56.540 --> 00:05:02.120
+Bill Croft: Where to change the state of the position of your hands, then it would look like a performance.
+
+54
+00:05:03.940 --> 00:05:07.739
+Bill Croft: And I didn't think of it as iterated. You mentioned that as one of the
+
+55
+00:05:08.170 --> 00:05:10.930
+Bill Croft: Reasons you might have thought of that as an endeavor.
+
+56
+00:05:11.080 --> 00:05:17.979
+Bill Croft: But even for… Doing it just once in the usual way, you know, the sound emission type
+
+57
+00:05:18.090 --> 00:05:22.489
+Bill Croft: meaning of clap. That's a semifactive, which would be an endeavor.
+
+58
+00:05:23.610 --> 00:05:24.300
+Paul Bontempo: Okay.
+
+59
+00:05:25.370 --> 00:05:30.850
+Bill Croft: So that's the reasoning. So the question is, how do you interpret this? Because I don't… you know, I don't…
+
+60
+00:05:31.570 --> 00:05:37.679
+Bill Croft: intimately familiar with the little print, so I don't know whether it means, like, just putting your hands together, whether it means
+
+61
+00:05:37.790 --> 00:05:41.749
+Bill Croft: You know, making a sound by… You know, going like this.
+
+62
+00:05:42.810 --> 00:05:53.329
+Paul Bontempo: Yeah, and I think that's maybe where we… we were unsure, because I also, from the context, it's not entirely clear either if he means, you know, like, an applause type of clapping, or just a single clap, and .
+
+63
+00:05:53.330 --> 00:05:55.290
+Bill Croft: And then what kind of clap? That's the…
+
+64
+00:05:55.290 --> 00:05:56.250
+Paul Bontempo: Yeah. Right.
+
+65
+00:05:56.490 --> 00:05:57.060
+Bill Croft: Hello.
+
+66
+00:05:57.060 --> 00:06:06.670
+Julia Bonn: I'm looking at… I'm looking at the Little Prince right now, and I think it… I think it might be, like, applause. He's… the conceited man is teaching the little prince that he, like.
+
+67
+00:06:07.210 --> 00:06:10.410
+Julia Bonn: How he responds to people who are, like, stopping for him.
+
+68
+00:06:10.980 --> 00:06:11.580
+Paul Bontempo: Okay.
+
+69
+00:06:11.580 --> 00:06:13.330
+Bill Croft: Okay, well then I would say Endeavor.
+
+70
+00:06:14.000 --> 00:06:19.020
+Paul Bontempo: Okay. And then, I think the next question is more broadly,
+
+71
+00:06:19.650 --> 00:06:38.690
+Paul Bontempo: even though we have access, or, I mean, Julia just looked into the larger text to find that context. If it's not initially clear from, at least as far as our, like, automated approach, we're only giving this sentence context, we're not even giving the previous sentence, for the automated method we're working on, so I don't know if it's…
+
+72
+00:06:39.570 --> 00:06:46.519
+Paul Bontempo: Is it helpful for us to include that context when we're making this type of annotation decision beforehand, if it won't be available at inference time?
+
+73
+00:06:46.800 --> 00:06:50.659
+Paul Bontempo: Yes, because we need to come up with a true label, right? Right.
+
+74
+00:06:50.660 --> 00:06:58.060
+Bill Croft: Yeah. But sometimes a sentence after might also be helpful in that context, and well, I don't know, Julia, where you were drawing that.
+
+75
+00:06:58.340 --> 00:07:03.149
+Bill Croft: Your interpretation, whether it's from following sentences or earlier sentences?
+
+76
+00:07:03.150 --> 00:07:10.650
+Julia Bonn: Yeah, it's earlier, like, probably the 5 before and the 5 after, yeah.
+
+77
+00:07:10.650 --> 00:07:21.479
+Bill Croft: Yeah, I mean, if you want a manual gold standard annotation, then having all that context is, for aspect in particular, helpful. But notice, the general issue here is a word like clap…
+
+78
+00:07:21.840 --> 00:07:25.699
+Bill Croft: You know, there are all these fine-grade sense distinctions.
+
+79
+00:07:25.950 --> 00:07:40.639
+Bill Croft: So, like, putting them together is reasonable, but… and then the other thing is, in English, if you say they clap… they clap their hands, or they just clapped, you'd immediately get the endeavor applause-type reading. If you say, clap your hands together.
+
+80
+00:07:41.230 --> 00:07:43.330
+Bill Croft: That would be more like a performance.
+
+81
+00:07:43.470 --> 00:07:45.199
+Paul Bontempo: Right, because you're just specifying it.
+
+82
+00:07:45.200 --> 00:08:02.170
+Bill Croft: But the actual description is, clap your hands one against the other, which is, to me as an English speaker, just isn't really a typical collocation. And I don't know if that's coming from the French original. And of course, I don't know the French collocations either, so…
+
+83
+00:08:03.410 --> 00:08:07.939
+Julia Bonn: Did I read… actually, okay, so as I'm looking at this more closely, I'm wondering if…
+
+84
+00:08:08.840 --> 00:08:23.759
+Julia Bonn: the… this particular sentence, there is a single clap, and then the man has him keep doing it, because… okay, so here's what it says. Okay, clap your hands, one against the other, the conceited man now directed him. The little prince clapped his hands.
+
+85
+00:08:23.820 --> 00:08:34.959
+Julia Bonn: The conceited man raised his hat in a mod of salute. This is more entertaining than the visit to the king, the little prince said to himself, and he began again to clap his hands once against the other, or one against the other.
+
+86
+00:08:34.960 --> 00:08:46.599
+Julia Bonn: after 5 minutes of this exercise, the little prince grew tired. So it almost seems like the first time is a single clap, so we would maybe do this one performance, and then the next instance of it, he's doing it
+
+87
+00:08:46.700 --> 00:08:48.710
+Julia Bonn: As an endeavor, repeatedly.
+
+88
+00:08:48.950 --> 00:08:49.840
+Paul Bontempo: Sure.
+
+89
+00:08:50.260 --> 00:08:54.759
+Bill Croft: Yeah, well, here the question, you know, that I've sort of started with is.
+
+90
+00:08:54.880 --> 00:08:58.330
+Bill Croft: Is this a kind of… is this a bodily gesture?
+
+91
+00:08:58.460 --> 00:09:01.510
+Bill Croft: Event, or a, sound emission event?
+
+92
+00:09:01.960 --> 00:09:10.100
+Bill Croft: For a sound emission event, then it would be a semifactive. You can see it there, under Endeavor, the first one under Endeavor.
+
+93
+00:09:10.760 --> 00:09:16.929
+Bill Croft: If it's a bodily gesture, well, it could be either, whether you
+
+94
+00:09:17.200 --> 00:09:20.950
+Bill Croft: Do it like that, where you tap and release, or…
+
+95
+00:09:21.110 --> 00:09:27.679
+Bill Croft: bring them together. So that's why they said the English collocation, clap your hands together, is more like a performance.
+
+96
+00:09:28.060 --> 00:09:37.099
+Bill Croft: Alright, it is a performance. You're going from one particular configuration of your hands to another, and that's the result state, and you're holding it.
+
+97
+00:09:37.570 --> 00:09:39.790
+Bill Croft: But in the context of applause.
+
+98
+00:09:40.390 --> 00:09:45.049
+Bill Croft: You know, that he could have just done that, and he could have done that multiple times.
+
+99
+00:09:45.460 --> 00:09:48.829
+Bill Croft: You know, in the passage that Julia read.
+
+100
+00:09:51.650 --> 00:10:04.780
+Bill Croft: Sure. I come across… I mean, this is what's fascinating about verbal semantics, but it's also a little aggravating if you're trying to come up with a clear-cut algorithm and even a gold standard annotation for a text where
+
+101
+00:10:04.890 --> 00:10:09.559
+Bill Croft: You're not present, and you have to make a lot of inferences about what's intended.
+
+102
+00:10:11.140 --> 00:10:11.780
+Paul Bontempo: Yeah.
+
+103
+00:10:12.270 --> 00:10:26.259
+Paul Bontempo: Although I guess that's part of the nice thing about this, is that if we think that there's one that's ever so slightly more likely, we can put that as the, you know, the more likely one, and then we have that second choice that can be whatever the other one is. Yeah. So it doesn't have to be…
+
+104
+00:10:26.400 --> 00:10:33.970
+Paul Bontempo: you know, to… Yeah, so maybe we ought to swap these two, if we think, given Julia's reading, if this case
+
+105
+00:10:35.190 --> 00:10:43.260
+Paul Bontempo: might be more of an endeavor? No, I think what Julia was saying, we would be leaving it as it is, because… Oh, this is the single case, and then this later on that he's reclining repeatedly?
+
+106
+00:10:43.260 --> 00:10:49.559
+Bill Croft: No, no, it's the single case can… is a semifactive, but the semifactive means off and on. I mean, on and off.
+
+107
+00:10:49.920 --> 00:10:50.750
+Paul Bontempo: which is in the WRC.
+
+108
+00:10:50.750 --> 00:10:53.739
+Bill Croft: hands together, and then separating them. That's…
+
+109
+00:10:54.090 --> 00:10:58.119
+Bill Croft: You wouldn't end up in the same configuration they were to start with.
+
+110
+00:10:58.680 --> 00:11:05.899
+Julia Bonn: So the only thing is I don't… I don't think we have semifactive in this… sorry, I'm losing my voice… In this list of 6 labels.
+
+111
+00:11:05.900 --> 00:11:08.210
+Paul Bontempo: So I agree with a subgroup of it.
+
+112
+00:11:08.210 --> 00:11:09.010
+Bill Croft: Endeavor.
+
+113
+00:11:10.030 --> 00:11:10.810
+Julia Bonn: Sorry, what?
+
+114
+00:11:11.080 --> 00:11:16.370
+Bill Croft: It's grouped under Endeavor, so if you're using the higher level and the lattice here.
+
+115
+00:11:16.610 --> 00:11:22.520
+Bill Croft: with State X Endeavor Performance, you put it under Endeavor, because some will factor as a subtype of Endeavor.
+
+116
+00:11:26.830 --> 00:11:27.390
+Paul Bontempo: Excuse me.
+
+117
+00:11:28.150 --> 00:11:31.059
+Paul Bontempo: Or I guess you have to… Yeah, I'll swap it.
+
+118
+00:11:33.150 --> 00:11:37.710
+Julia Bonn: Okay, let me pull up the definition of… Endeavor again.
+
+119
+00:11:38.970 --> 00:11:41.800
+Paul Bontempo: Just in the lattice, if semifactive is one of its…
+
+120
+00:11:42.230 --> 00:11:48.680
+Paul Bontempo: like, subordinate types. I think that's Bill's argument for Endeavor being the more likely label here.
+
+121
+00:11:50.080 --> 00:11:57.990
+Bill Croft: The definition of endeavor should be that the end state is basically the same as the start state, whereas performance, the end state's different from the start state.
+
+122
+00:12:00.520 --> 00:12:02.690
+Bill Croft: So the option is then you revert.
+
+123
+00:12:02.940 --> 00:12:10.619
+Paul Bontempo: Do we want, performance to stay as a secondary label, or a, like, a second choice rank, or should we.
+
+124
+00:12:10.620 --> 00:12:16.509
+Bill Croft: I think you should put it as a second choice. If you, you know, to the extent you're thinking that this might be the gesture.
+
+125
+00:12:17.340 --> 00:12:18.709
+Bill Croft: As opposed to this.
+
+126
+00:12:20.150 --> 00:12:22.959
+Bill Croft: Notice that both of them lead to sound emission.
+
+127
+00:12:23.590 --> 00:12:32.630
+Bill Croft: But, you know, obviously, if you're in the… you're applauding for a perform… of a, you know, musical performance or something, you're going to be doing this, not…
+
+128
+00:12:33.710 --> 00:12:38.130
+Bill Croft: You're gonna always have to bring your pans back to their original position.
+
+129
+00:12:39.380 --> 00:12:48.589
+Paul Bontempo: Right. And so then in that later sentence that Julia found, where he now clapped… he clapped for 5 minutes or something like that, that would also be an endeavor, because…
+
+130
+00:12:48.590 --> 00:12:55.499
+Bill Croft: Yeah, yeah, and the derivative adverbial 4 or 5 minutes kind of gives that away, because it says you're doing it for a while, then you stop.
+
+131
+00:12:57.260 --> 00:12:58.969
+Julia Bonn: Yeah, that all makes sense.
+
+132
+00:13:01.170 --> 00:13:02.619
+Paul Bontempo: Should we move on to this one?
+
+133
+00:13:03.030 --> 00:13:03.470
+Bill Croft: Sure.
+
+134
+00:13:04.160 --> 00:13:10.450
+Paul Bontempo: So this is another one that, like, we chose this example, but it represents… there are many examples of this from the Minecraft corpus.
+
+135
+00:13:10.450 --> 00:13:10.880
+Bill Croft: Yeah.
+
+136
+00:13:12.110 --> 00:13:23.660
+Paul Bontempo: with this, like, architect tag, which I think comes from the structure of that corpus. There's… it's, like, dialogue in Minecraft, so that's the speaker. Now above that, place red blocks on the grid.
+
+137
+00:13:23.940 --> 00:13:26.600
+Paul Bontempo: With this place event.
+
+138
+00:13:27.250 --> 00:13:32.019
+Paul Bontempo: I think we were all pretty split on this one,
+
+139
+00:13:32.640 --> 00:13:36.909
+Paul Bontempo: I think because of the… the imperative, and then the,
+
+140
+00:13:37.650 --> 00:13:56.229
+Paul Bontempo: it's not specified how many blocks… I think, in the context of the game, it would have been clear however many blocks are available to them, or how many blocks are in the field of view, but without context. We're unsure if this is, like, keep placing red blocks in perpetuity, or place the discrete number of blocks you have. So we were split on process versus activity.
+
+141
+00:13:58.050 --> 00:14:01.389
+Bill Croft: process, you might not… well, let me go look at the…
+
+142
+00:14:01.590 --> 00:14:04.789
+Paul Bontempo: Well, that was at least the… the second annotator.
+
+143
+00:14:04.790 --> 00:14:13.520
+Bill Croft: Because, okay, because, yeah, process is way up the lattice, so that means… Yeah.
+
+144
+00:14:16.600 --> 00:14:21.769
+Julia Bonn: My intuition, having worked extensively with the Minecraft corpus, is that this would
+
+145
+00:14:22.450 --> 00:14:25.400
+Julia Bonn: There… there is an intended, like, end.
+
+146
+00:14:25.650 --> 00:14:29.359
+Bill Croft: It's not just an indefinite place red blocks forever, it's…
+
+147
+00:14:29.360 --> 00:14:46.570
+Julia Bonn: probably there was previous information, maybe they're, like, doing… I mean, I can pull up the actual dialogue, and we can look at it, but my guess is that maybe they've already made this structure before, or there's already been an instruction given that tells you, like, how many to do,
+
+148
+00:14:46.570 --> 00:14:49.869
+Bill Croft: So, yeah, so, yeah, so is there…
+
+149
+00:14:49.970 --> 00:14:57.630
+Bill Croft: any reason to think that they could have said… place the red blocks, but they didn't, because… I mean, I can't remember, is Minecraft typed
+
+150
+00:14:57.730 --> 00:14:58.530
+Bill Croft: input, or.
+
+151
+00:14:58.530 --> 00:15:00.350
+Julia Bonn: Yeah, yeah, it's all tight.
+
+152
+00:15:00.350 --> 00:15:03.889
+Bill Croft: Could be they… they didn't… they were using a bit of a…
+
+153
+00:15:04.740 --> 00:15:06.000
+Bill Croft: Oh, telegraphed.
+
+154
+00:15:07.230 --> 00:15:09.259
+Bill Croft: Production, because they're typing.
+
+155
+00:15:09.600 --> 00:15:10.130
+Bill Croft: Oh.
+
+156
+00:15:10.130 --> 00:15:10.520
+Julia Bonn: Yeah.
+
+157
+00:15:10.520 --> 00:15:16.169
+Bill Croft: So, it could be that this is actually interpretable as placed as our red blocks on the grid.
+
+158
+00:15:16.390 --> 00:15:17.339
+Bill Croft: In which case it would be…
+
+159
+00:15:17.340 --> 00:15:17.890
+Julia Bonn: Okay.
+
+160
+00:15:18.320 --> 00:15:19.870
+Bill Croft: performance.
+
+161
+00:15:21.210 --> 00:15:24.860
+Julia Bonn: Yeah, it'll take me a minute to find the right,
+
+162
+00:15:25.170 --> 00:15:30.020
+Julia Bonn: window. I mean, I can look, and we can check for sure, but that's… My guess.
+
+163
+00:15:33.250 --> 00:15:35.030
+Julia Bonn: I need the right window.
+
+164
+00:15:42.950 --> 00:15:44.419
+Julia Bonn: No, okay.
+
+165
+00:15:45.150 --> 00:15:47.059
+Julia Bonn: You guys can go ahead, I can… I can…
+
+166
+00:15:47.060 --> 00:15:52.469
+Bill Croft: Okay, well, another thing that's in both of this example and the previous example is they are imperatives.
+
+167
+00:15:52.760 --> 00:15:56.089
+Bill Croft: We're really talking about, you know,
+
+168
+00:15:56.250 --> 00:16:02.520
+Bill Croft: Future desired mental state in which the process has gone to… It's AND.
+
+169
+00:16:03.850 --> 00:16:11.440
+Paul Bontempo: Yeah. And Binet's guidelines, as we were working through these annotations for imperatives and hypotheticals, I think, were always to
+
+170
+00:16:11.590 --> 00:16:18.500
+Paul Bontempo: Basically, ignore that context and treat it as though the event is factual.
+
+171
+00:16:18.500 --> 00:16:20.710
+Bill Croft: Yeah, yeah, I think that's the right choice.
+
+172
+00:16:20.710 --> 00:16:23.069
+Paul Bontempo: Which, I think, simplifies things, except…
+
+173
+00:16:23.070 --> 00:16:23.780
+Bill Croft: Yeah, no.
+
+174
+00:16:23.780 --> 00:16:26.780
+Paul Bontempo: You don't know how many blocks there are, or for how long.
+
+175
+00:16:27.480 --> 00:16:32.580
+Bill Croft: Because other than that, everything is like Justice thing. We're not even doing it yet.
+
+176
+00:16:32.580 --> 00:16:33.260
+Julia Bonn: Yes.
+
+177
+00:16:33.850 --> 00:16:40.480
+Bill Croft: Yeah, so, yeah, so I guess I'd be up… you could either, I mean, actually, ATLIC…
+
+178
+00:16:41.280 --> 00:16:46.539
+Bill Croft: Process, and the… and so you wouldn't have to go all the way up to process
+
+179
+00:16:46.790 --> 00:16:54.760
+Bill Croft: You can go to Perfective, because basically we're disputing whether this is an… endeavor or a performance? Well…
+
+180
+00:16:56.080 --> 00:17:04.529
+Bill Croft: I mean, actually, to me, anything down that bottom Branch of the lattice.
+
+181
+00:17:05.069 --> 00:17:08.710
+Bill Croft: I mean, you can go all the way up to process, you could be perfective to be…
+
+182
+00:17:09.000 --> 00:17:18.790
+Bill Croft: a little more safe, but if… if there's a… you know, Julia suggested in the context there'd be a particular, you know, bounded set of red blocks.
+
+183
+00:17:19.520 --> 00:17:25.200
+Bill Croft: And if that's true, then it's a performance, because you are instructing the person to
+
+184
+00:17:25.380 --> 00:17:33.170
+Bill Croft: to do… put all those red blocks on, and you're done. You've come to a new result state. All the red blocks are on the grid.
+
+185
+00:17:33.920 --> 00:17:39.989
+Benét Post: Technically, don't you have, like, an infinite amount of red blocks because of how the inventory works?
+
+186
+00:17:39.990 --> 00:17:44.280
+Julia Bonn: You actually don't in this, I don't remember what the limit is, but here's the.
+
+187
+00:17:44.280 --> 00:17:45.400
+Benét Post: Like, 60?
+
+188
+00:17:46.340 --> 00:17:48.679
+Julia Bonn: Yeah, it might have been 30. They'd run out.
+
+189
+00:17:49.490 --> 00:17:52.789
+Julia Bonn: But, okay, so here's the context, so…
+
+190
+00:17:52.940 --> 00:17:57.989
+Julia Bonn: So, first they have you put down 4 orange blocks in the corners of a grid.
+
+191
+00:17:58.160 --> 00:18:00.990
+Julia Bonn: And so he does that, and then they say.
+
+192
+00:18:01.370 --> 00:18:04.880
+Julia Bonn: Now, above that place red blocks on the grid.
+
+193
+00:18:05.500 --> 00:18:07.370
+Julia Bonn: That's it, right? That's the sentence.
+
+194
+00:18:07.370 --> 00:18:07.830
+Paul Bontempo: Yeah, that's.
+
+195
+00:18:07.830 --> 00:18:13.619
+Julia Bonn: Yeah, so… so there's only… There are 4 blocks.
+
+196
+00:18:14.160 --> 00:18:20.849
+Julia Bonn: There are 4 orange blocks, and so this is very clear, like, you're gonna place 4 red blocks on top of the orange blocks.
+
+197
+00:18:20.850 --> 00:18:21.450
+Paul Bontempo: Oh.
+
+198
+00:18:22.770 --> 00:18:25.939
+Julia Bonn: Oh, they're, like, stacking. Yeah, they're stacking.
+
+199
+00:18:26.320 --> 00:18:28.799
+Julia Bonn: Okay, in that case, it's a really…
+
+200
+00:18:28.810 --> 00:18:31.219
+Paul Bontempo: Discrete blocks that they can place.
+
+201
+00:18:31.220 --> 00:18:33.930
+Benét Post: Yeah, that's more of a performance, then.
+
+202
+00:18:33.930 --> 00:18:34.330
+Julia Bonn: Yeah.
+
+203
+00:18:35.450 --> 00:18:36.040
+Paul Bontempo: Okay.
+
+204
+00:18:36.720 --> 00:18:43.779
+Bill Croft: Yeah, I mean, you know, you're right that activity would be a good reading if there was this indefinite open-ended number of red blocks.
+
+205
+00:18:43.780 --> 00:18:44.100
+Paul Bontempo: Yeah.
+
+206
+00:18:45.370 --> 00:18:49.889
+Bill Croft: And also that you could just keep going as much as you want, or stop.
+
+207
+00:18:50.540 --> 00:18:59.540
+Paul Bontempo: Yeah, and that depends just entirely on, like, what type of game you're playing in Minecraft. So, August was asking, should we leave Endeavor as a secondary choice, then?
+
+208
+00:19:01.590 --> 00:19:02.920
+Bill Croft: Or even activity.
+
+209
+00:19:02.920 --> 00:19:03.480
+Paul Bontempo: Activity?
+
+210
+00:19:03.480 --> 00:19:04.740
+Bill Croft: See, the thing is.
+
+211
+00:19:05.170 --> 00:19:07.800
+Julia Bonn: You know, it's your context.
+
+212
+00:19:07.880 --> 00:19:17.880
+Bill Croft: You know, Julie has basically provided us context for both these two examples, that once you have that context, then the answer should be fairly straightforward, given the guidelines.
+
+213
+00:19:17.880 --> 00:19:18.250
+Paul Bontempo: Right.
+
+214
+00:19:18.250 --> 00:19:29.300
+Bill Croft: pretty straightforward. It's not… but when you're thinking about using this as input to develop an algorithm, well, you'd have to, you know, generate a lot of examples where
+
+215
+00:19:29.580 --> 00:19:32.110
+Bill Croft: You know, the system would be able to learn
+
+216
+00:19:32.220 --> 00:19:40.919
+Bill Croft: implicitly a context from the… there. And if the… if the algorithm is being trained on just that one sentence and not the larger context.
+
+217
+00:19:41.330 --> 00:19:45.199
+Bill Croft: You're just gonna have a… You know, an error rate, you know.
+
+218
+00:19:45.210 --> 00:19:47.440
+Paul Bontempo: It won't be able to fix that.
+
+219
+00:19:48.380 --> 00:20:03.769
+Benét Post: Yeah, and we're not giving it the larger context window here, we're just giving it the singular sentence. And given that one sentence, I feel like activity and process are not crazy guesses, if you don't have the wider context available.
+
+220
+00:20:03.970 --> 00:20:08.650
+Bill Croft: Well, process… yeah, I mean, process is higher on the lattice, so…
+
+221
+00:20:08.810 --> 00:20:11.419
+Bill Croft: As I said, you could probably go to Perfective.
+
+222
+00:20:12.050 --> 00:20:15.020
+Bill Croft: In the sense that there's likely to be some fixed…
+
+223
+00:20:15.830 --> 00:20:16.310
+Benét Post: Yep.
+
+224
+00:20:16.310 --> 00:20:19.910
+Bill Croft: to stop putting blocks on. It's not going to be in this open-ended…
+
+225
+00:20:20.460 --> 00:20:25.310
+Benét Post: We're just not using Perfective, though, for this annotation scheme. We're only.
+
+226
+00:20:25.310 --> 00:20:30.309
+Bill Croft: Right. Well, okay, well, I didn't understand that, because you did use process, which is higher up.
+
+227
+00:20:30.310 --> 00:20:39.130
+Paul Bontempo: Yeah, we used process because we also, included any event nominals that we identified. We gave automatically the label of process.
+
+228
+00:20:39.710 --> 00:20:40.310
+Bill Croft: Okay.
+
+229
+00:20:40.310 --> 00:20:45.460
+Paul Bontempo: The majority of the events labeled process in the dataset are nominals.
+
+230
+00:20:46.200 --> 00:20:47.740
+Bill Croft: Right, so…
+
+231
+00:20:47.960 --> 00:20:56.219
+Bill Croft: This brings up an interesting question. You've brought in process for that purpose, for annotating event nominals, but now you're using it.
+
+232
+00:20:56.990 --> 00:21:07.620
+Bill Croft: For another thing. This is, what, back in early days of generative grammar, somebody, Jerry Sadoc, a linguist, called the free ride principle. You come up with some hokey
+
+233
+00:21:07.710 --> 00:21:24.520
+Bill Croft: formal principle and syntax for one problem, and now that you've got it, then you start using it for totally unrelated problems, and Sadoc called it the free ride principle precisely because he thought that was illegitimate, and I'm also kind of questioning it here.
+
+234
+00:21:24.520 --> 00:21:25.370
+Julia Bonn: Kind of like…
+
+235
+00:21:25.370 --> 00:21:33.529
+Bill Croft: If you're going to do that, you may as well let yourself use a Telic process and perfective, because they're in between process and the other categories in the lattice.
+
+236
+00:21:33.800 --> 00:21:51.049
+Julia Bonn: I just want to add why process is in here, though, and it also comes from the guidelines, so this is… this is a thing where, like, in the guidelines section on Aspect, it very clearly says that process is the default annotation for processes, and specifically, you should be using it, like, for nominals.
+
+237
+00:21:51.450 --> 00:21:52.939
+Julia Bonn: Like, all the time.
+
+238
+00:21:53.080 --> 00:22:08.819
+Julia Bonn: But then in this cheat sheet section where it gives you the five, you know, this, this, you know, list of five to start with, it doesn't include it. But that feels really weird with how strong that instruction was, that you're supposed to use it all the time for nominals.
+
+239
+00:22:08.820 --> 00:22:12.980
+Bill Croft: Well, I mean, default mode isn't quite the same as all the time, but…
+
+240
+00:22:12.980 --> 00:22:13.660
+Julia Bonn: Well…
+
+241
+00:22:13.660 --> 00:22:27.039
+Bill Croft: I think it should be a case where you have principled reasons, like, you know, insufficient information in the context to choose between endeavor, activity, and performance.
+
+242
+00:22:27.650 --> 00:22:30.369
+Bill Croft: And maybe you do, in this case.
+
+243
+00:22:30.890 --> 00:22:38.539
+Bill Croft: Depends on, you know, what your attitude is about the number of blocks available, red blocks available to the user.
+
+244
+00:22:38.760 --> 00:22:43.850
+Bill Croft: But you gave it a more precise context, which made it look like a performance.
+
+245
+00:22:46.870 --> 00:22:52.730
+Bill Croft: So, I guess, yes, and that reasoning, then I suppose your second choice could be process, in the sense that
+
+246
+00:22:53.310 --> 00:22:57.190
+Bill Croft: It's recognizing the… some indeterminacy here.
+
+247
+00:22:58.470 --> 00:22:59.800
+Bill Croft: interpretation.
+
+248
+00:23:00.670 --> 00:23:07.170
+Paul Bontempo: One idea, which is not really relevant for now, and it would have to be down the road, but I'm wondering if
+
+249
+00:23:07.560 --> 00:23:22.679
+Paul Bontempo: there are, document-level annotations for UMR, right? If we're worried that using just the sentence as context isn't always clear enough on the event, would the whole document-level graph… I don't know what those graphs look like. Do they have…
+
+250
+00:23:23.050 --> 00:23:31.230
+Paul Bontempo: Well, I thought it would not be graphs, but that there's references to document-level things. Oh, it's just that the graphs are interconnected? The entities, right, or something like that?
+
+251
+00:23:31.230 --> 00:23:38.489
+Bill Croft: I don't know what the connection is, but at the document level, it's primarily… it's temporal, modal, and co-reference.
+
+252
+00:23:38.720 --> 00:23:39.320
+Paul Bontempo: Okay.
+
+253
+00:23:39.320 --> 00:23:41.749
+Bill Croft: So, the only thing you would need to… I mean…
+
+254
+00:23:42.070 --> 00:23:58.420
+Bill Croft: If there's… if the document-level graphs are linked to the sentence-level graphs so that you actually know which sentences immediately proceed and follow the sentence in question, then you could use it, but it doesn't have any spectral information relevant to aspect that's not already in the sentence.
+
+255
+00:23:58.420 --> 00:24:01.619
+Paul Bontempo: Okay, so we wouldn't get any more context that's relevant.
+
+256
+00:24:01.620 --> 00:24:02.390
+Bill Croft: You know.
+
+257
+00:24:02.920 --> 00:24:03.770
+Paul Bontempo: Yeah.
+
+258
+00:24:04.230 --> 00:24:04.940
+Paul Bontempo: Okay.
+
+259
+00:24:08.230 --> 00:24:21.569
+Paul Bontempo: And yeah, I imagine, because we saw… we… I think there were several, example sentences like this that we were unsure about, so having resolved it this way, I think we can go back and look through. And Julie, I don't… do you.
+
+260
+00:24:21.570 --> 00:24:25.529
+Bill Croft: So, yeah, but I would put the process rather than activity as your second choice.
+
+261
+00:24:26.300 --> 00:24:26.950
+Paul Bontempo: Okay.
+
+262
+00:24:29.300 --> 00:24:39.719
+Paul Bontempo: Is the… the full, like, documents where these examples come from, are those, available somewhere, Julia, that as we go back through and, like, you know.
+
+263
+00:24:39.890 --> 00:24:40.820
+Paul Bontempo: Make these changes.
+
+264
+00:24:40.820 --> 00:24:41.280
+Julia Bonn: Yeah.
+
+265
+00:24:41.280 --> 00:24:44.429
+Paul Bontempo: Similar examples, so we can put that kind of context?
+
+266
+00:24:44.670 --> 00:24:55.390
+Julia Bonn: So you can actually, if you just pull up the GitHub, with the UMR 2.0, that has all of these documents. Yes, that's an easy way to look.
+
+267
+00:24:56.910 --> 00:24:59.070
+Paul Bontempo: Okay, that's good to know. Thank you.
+
+268
+00:25:00.550 --> 00:25:02.920
+Paul Bontempo: alright.
+
+269
+00:25:04.210 --> 00:25:05.899
+Paul Bontempo: What was the issue with this one?
+
+270
+00:25:06.880 --> 00:25:15.689
+Paul Bontempo: Smart argues that rather than run for office, a strategy that's had mixed results, leaders need to apply their skills within the bureaucracy of government itself.
+
+271
+00:25:15.830 --> 00:25:28.880
+Paul Bontempo: This might have been another context one where we weren't sure if it was argue as in, you know, someone was on a stage debating and making that argument, or if it was that this was their philosophy, and that they argue on a more general and,
+
+272
+00:25:29.360 --> 00:25:40.789
+Paul Bontempo: state of level. Right. They have this argument. Yeah, I think some of us interpreted argue here as, like, it is his belief that, and some… it also could have been he is making the argument, you know, on a stage.
+
+273
+00:25:42.230 --> 00:25:45.389
+Julia Bonn: Yeah, and also, if he's doing it in writing, is the other thing.
+
+274
+00:25:46.580 --> 00:25:51.300
+Julia Bonn: Which I would rate as more stated, but it's super borderline.
+
+275
+00:25:51.500 --> 00:25:57.439
+Benét Post: Yeah, that's why stage ended up, I think, as the secondary choice at one point.
+
+276
+00:25:58.370 --> 00:26:04.279
+Julia Bonn: I think I've ended up calling these states more often than performances lately, but Bill, I'm curious.
+
+277
+00:26:04.280 --> 00:26:06.880
+Bill Croft: Yes, I would agree with you, Julia. I mean…
+
+278
+00:26:06.880 --> 00:26:07.490
+Julia Bonn: Perfect.
+
+279
+00:26:07.490 --> 00:26:07.940
+Benét Post: It's tough.
+
+280
+00:26:08.270 --> 00:26:16.150
+Bill Croft: I mean, it's either… I mean, it sounds like you're suggesting this could be what's sometimes called the narrative present, or the sportscaster's present.
+
+281
+00:26:16.150 --> 00:26:16.510
+Paul Bontempo: Right.
+
+282
+00:26:17.230 --> 00:26:19.020
+Bill Croft: Where you're, you're,
+
+283
+00:26:19.220 --> 00:26:26.899
+Bill Croft: basically, you're the sportscaster for a debate. So you're saying, Smith said… or Smart said this, and Jones said that, or whatever.
+
+284
+00:26:27.370 --> 00:26:33.839
+Bill Croft: But if it's more like, This is somebody reporting what SMART has written in an…
+
+285
+00:26:34.230 --> 00:26:45.690
+Bill Croft: scholarly article, or, you know, in an opinion piece, or, you know, what we see endless times in scholarly articles about debates and linguistics or whatever, then it's…
+
+286
+00:26:46.180 --> 00:26:50.299
+Bill Croft: It's more stative, you know, you're basically describing…
+
+287
+00:26:50.940 --> 00:26:57.279
+Bill Croft: You know, a statement or a proposition that is… Being asserted by some author.
+
+288
+00:26:57.730 --> 00:27:06.809
+Paul Bontempo: That would be my guess, given the nature of the… the… where the data comes from, because this is, like, an online forum, right? So most likely someone's citing an article that they read.
+
+289
+00:27:07.020 --> 00:27:07.580
+Bill Croft: Yeah.
+
+290
+00:27:07.580 --> 00:27:10.729
+Paul Bontempo: integrating what SMART says, so then maybe we should make state.
+
+291
+00:27:11.100 --> 00:27:14.279
+Bill Croft: Yeah, the state's the first for the second.
+
+292
+00:27:16.740 --> 00:27:22.180
+Paul Bontempo: It's also okay if there's not a second, like, we don't… Yeah. If you think it's definitively state, then that's fine, too.
+
+293
+00:27:22.180 --> 00:27:24.930
+Bill Croft: I think that's probably the safe thing to do here.
+
+294
+00:27:26.250 --> 00:27:32.370
+Paul Bontempo: Yeah, we… most of the annotations we have have only a single label, we were just… we added the option to add, like.
+
+295
+00:27:32.370 --> 00:27:32.940
+Bill Croft: Yeah.
+
+296
+00:27:32.940 --> 00:27:44.310
+Paul Bontempo: the case that it's really ambiguous. If it was ambiguously challenging, or there was a good amount of ambiguity, which I guess goes somewhat hand-in-hand that we would then have a second label, but other than that, having one's totally fun. Yeah.
+
+297
+00:27:44.650 --> 00:27:49.500
+Benét Post: Especially for the 8 that we have a bunch of different labels for.
+
+298
+00:27:49.500 --> 00:27:53.149
+Paul Bontempo: Yeah. Yeah, these 8 were particularly tricky.
+
+299
+00:27:53.150 --> 00:27:53.730
+Bill Croft: Yeah.
+
+300
+00:27:55.360 --> 00:28:17.080
+Paul Bontempo: Now let's look at what the Baucus bill does for the new low-income subsidies to purchase health insurance outside of employment. I think this was for subsidy, yeah. Yeah, subsidize. Oh, yeah, this is the… Here's another… an event nominal, so the initial, according to the guidelines, the default is process, but then we were unsure, it might also just not be an event at all, because we're talking about
+
+301
+00:28:17.690 --> 00:28:34.689
+Paul Bontempo: Right. It seems to me like we're not discussing the act of subsidizing anything, it's just a subsidy. And this also came up in the context of talking about tax breaks. Right. This is where we'd come to one conclusion for that, and then we looked at this, and it was seemingly… Had to apply the same rule, but… So…
+
+302
+00:28:35.180 --> 00:28:35.970
+Bill Croft: Well, I don't know.
+
+303
+00:28:35.970 --> 00:28:36.630
+Julia Bonn: awful.
+
+304
+00:28:37.290 --> 00:28:42.400
+Bill Croft: Yeah. Seems to me… well, I mean, first, I guess, by deciding if you choose to
+
+305
+00:28:42.580 --> 00:28:50.459
+Bill Croft: give it the subsume subsidies under the subsidized O1 predicate, then you're sort of committing to a event.
+
+306
+00:28:50.660 --> 00:28:54.499
+Bill Croft: interpretation, so I would think you'd have to label it something.
+
+307
+00:28:54.500 --> 00:28:55.180
+Paul Bontempo: These were…
+
+308
+00:28:55.180 --> 00:28:55.680
+Julia Bonn: I think…
+
+309
+00:28:55.680 --> 00:29:07.539
+Paul Bontempo: automatically labeled, and so we had… we have a ton of, events that were, like, automatically identified as events in the dataset that we annotated as none because we decided they were not eventive. Like, there are many that are very clearly.
+
+310
+00:29:07.940 --> 00:29:26.709
+Benét Post: And the guidelines, like, for the original annotations, specified that you should, even if it's not eventive, that you use the, like, predicate items for them, so that it's clear which, type of noun it is, so it's confusing when it's eventive versus if it's just a noun.
+
+311
+00:29:27.320 --> 00:29:37.629
+Julia Bonn: Yeah, can we see the whole graph for this? Because, like, if the preferred reading is that it's actually the money, then it would be, like, the ARG1 of subsidize.
+
+312
+00:29:37.950 --> 00:29:41.889
+Julia Bonn: Oh, which is not what's in the graph, okay.
+
+313
+00:29:42.900 --> 00:30:01.299
+Julia Bonn: Yeah, these are so hard to annotate, because a lot of times through the document, like, half of the instances of, like, the word subsidy make you think that it's the money, but then there are some that are, like, more borderline that make you think you've interpreted it wrong, and it should be the event. So, but anyway.
+
+314
+00:30:01.600 --> 00:30:02.230
+Julia Bonn: I think
+
+315
+00:30:02.620 --> 00:30:09.340
+Julia Bonn: the graph should actually be thing that's arg1 of subsidize, and then I guess we still have the same problem.
+
+316
+00:30:09.520 --> 00:30:14.569
+Bill Croft: So, are these graphs… these particular graphs automatically generated, or were they these hand…
+
+317
+00:30:15.290 --> 00:30:17.839
+Julia Bonn: I think these are the original AMR graphs.
+
+318
+00:30:17.840 --> 00:30:18.180
+Benét Post: Yeah.
+
+319
+00:30:18.870 --> 00:30:24.490
+Bill Croft: Oh, so they're just… yeah, so that… but the AMR graph was manually annotated?
+
+320
+00:30:24.490 --> 00:30:25.020
+Benét Post: Yeah.
+
+321
+00:30:25.020 --> 00:30:31.990
+Julia Bonn: And I… so, like, it would be kind of like the word teacher in this case, like…
+
+322
+00:30:32.140 --> 00:30:40.360
+Julia Bonn: Our rule for a teacher is, like, yes, you can put, you know, person that's arg0 of teach, but you don't do any kind of, like.
+
+323
+00:30:40.750 --> 00:30:48.029
+Julia Bonn: modal strength or aspectual annotation for that instance of TEACHO1. So I kind of think that's what this should look like, but…
+
+324
+00:30:48.370 --> 00:30:55.829
+Julia Bonn: Obviously, like, an automatic system can't understand that, because there's no thing, arg1 of subsidy in here, so…
+
+325
+00:30:56.070 --> 00:31:02.209
+Bill Croft: Right. So, yeah, I don't know what to say here. Well, I would say, if you're going to stick with subsidize a one.
+
+326
+00:31:02.600 --> 00:31:09.369
+Bill Croft: as… the predicate, and it's not an arg of subsidized one, then calling it process…
+
+327
+00:31:09.770 --> 00:31:15.850
+Bill Croft: If it's being construed as an event nominal, then it probably should be labeled process.
+
+328
+00:31:15.980 --> 00:31:16.340
+Julia Bonn: But…
+
+329
+00:31:16.340 --> 00:31:18.950
+Bill Croft: If it's not being construed as event nominal.
+
+330
+00:31:19.090 --> 00:31:21.670
+Bill Croft: Then, obviously, none is fine, and…
+
+331
+00:31:22.160 --> 00:31:28.679
+Bill Croft: The question is whether you want to just leave this AMR converted UMR,
+
+332
+00:31:28.870 --> 00:31:34.290
+Bill Croft: graph, or whether you want to actually change the graph as you described it, to treat it as an RG1 of subsidize.
+
+333
+00:31:34.550 --> 00:31:37.070
+Paul Bontempo: Yeah. And I do think, at least in the case of the.
+
+334
+00:31:37.070 --> 00:31:37.610
+Julia Bonn: That's funny.
+
+335
+00:31:37.610 --> 00:31:38.760
+Paul Bontempo: automated approach.
+
+336
+00:31:38.760 --> 00:31:43.599
+Julia Bonn: If the information, like, if, Julie, it was clear to you by the structure of this graph.
+
+337
+00:31:43.600 --> 00:31:54.139
+Paul Bontempo: that, it's being treated differently than the cases of, like, teach and teacher, then I think it would be clear to the model, because we're passing the, like, the graph structure is
+
+338
+00:31:54.220 --> 00:32:03.870
+Paul Bontempo: given as input. So I think if we label this as a process, even though we know it's kind of on the fence, it'll be at least distinct from the other, like, examples.
+
+339
+00:32:03.870 --> 00:32:04.440
+Julia Bonn: Yeah.
+
+340
+00:32:04.440 --> 00:32:05.450
+Paul Bontempo: F structure.
+
+341
+00:32:05.650 --> 00:32:19.659
+Julia Bonn: Exactly, yeah, and I… I really, at this point… at this stage in the game, I don't think we should be trying to manually change any of these, so coming up with, like, process is the first choice for this system to label, like, I think that's good.
+
+342
+00:32:19.860 --> 00:32:20.400
+Bill Croft: Okay.
+
+343
+00:32:20.880 --> 00:32:21.330
+Benét Post: Alright.
+
+344
+00:32:21.850 --> 00:32:25.030
+Paul Bontempo: Tax break, we would have the same
+
+345
+00:32:25.460 --> 00:32:32.389
+Paul Bontempo: I think depending… yeah, depending on, oh, it's right. …if break is, like,
+
+346
+00:32:32.660 --> 00:32:35.869
+Paul Bontempo: like, break 01, and then it's arg…
+
+347
+00:32:36.070 --> 00:32:39.380
+Paul Bontempo: Julie, can you explain that again? Is it… it's ARG1 of the…
+
+348
+00:32:40.070 --> 00:32:54.249
+Julia Bonn: Yeah, so usually with… yeah, like, with the rule set for tax, it's like, the ARG one is, like, the money itself. So if you're… if you're heading it with the money itself, and just saying, hey, it points to this rule set.
+
+349
+00:32:54.810 --> 00:32:59.879
+Bill Croft: Yeah, so they… this thing puts income as argu… that's income as argu… one of…
+
+350
+00:33:01.000 --> 00:33:05.909
+Bill Croft: Subsidized, but that's actually not… it's… the income is having money added to it.
+
+351
+00:33:07.250 --> 00:33:08.150
+Julia Bonn: Yeah, well.
+
+352
+00:33:08.150 --> 00:33:10.710
+Bill Croft: People with low income are now getting more money.
+
+353
+00:33:10.830 --> 00:33:14.099
+Bill Croft: That's the subsidy, is the additional money.
+
+354
+00:33:14.280 --> 00:33:16.310
+Bill Croft: On top of their low income.
+
+355
+00:33:16.310 --> 00:33:18.220
+Julia Bonn: Let's look at the subsidy.
+
+356
+00:33:18.920 --> 00:33:20.420
+Julia Bonn: So, okay.
+
+357
+00:33:20.420 --> 00:33:21.190
+Paul Bontempo: The tax break.
+
+358
+00:33:21.190 --> 00:33:28.220
+Julia Bonn: Subsidy… ugh. Okay. This is what my dissertation is actually fixing.
+
+359
+00:33:30.330 --> 00:33:43.310
+Julia Bonn: Subsidy only has two arguments, so they literally couldn't structure the graph the way that I just said it should be structured, because there isn't an argument for the money. There's only the person giving the money and the person receiving the money.
+
+360
+00:33:43.700 --> 00:33:44.400
+Julia Bonn: So…
+
+361
+00:33:44.870 --> 00:33:45.400
+Paul Bontempo: Good.
+
+362
+00:33:45.880 --> 00:33:49.289
+Julia Bonn: That's the only… this is why these are so terrible to annotate!
+
+363
+00:33:49.290 --> 00:33:56.049
+Paul Bontempo: So does that mean that in this, like, if we interpret it properly in this structure, the income is the giver of… or the receiver of the money?
+
+364
+00:33:56.490 --> 00:33:57.300
+Paul Bontempo: I don't…
+
+365
+00:33:57.650 --> 00:33:58.750
+Julia Bonn: Yeah.
+
+366
+00:33:58.750 --> 00:34:08.730
+Bill Croft: Yeah, that's a bad… That doesn't fit what you just described for the… The argument set for… Subsidize.
+
+367
+00:34:09.009 --> 00:34:13.169
+Julia Bonn: Well, maybe… okay, so that… what it actually says is entity subsidized.
+
+368
+00:34:14.119 --> 00:34:20.469
+Julia Bonn: So, maybe the annotator interpreted low-income subsidies to be people
+
+369
+00:34:20.889 --> 00:34:24.219
+Julia Bonn: Who have low income receive the subsidies?
+
+370
+00:34:24.469 --> 00:34:28.429
+Bill Croft: Yeah, that's why I've… But then, isn't that RG2?
+
+371
+00:34:29.250 --> 00:34:33.309
+Julia Bonn: No, there's no ARC2, it's just ARC 1 is the entity subsidized.
+
+372
+00:34:33.310 --> 00:34:35.950
+Bill Croft: Right, right, okay, okay, well then…
+
+373
+00:34:37.340 --> 00:34:41.650
+Bill Croft: I think you're still probably safest to just leave it as it is and call it a…
+
+374
+00:34:41.929 --> 00:34:48.290
+Bill Croft: Yeah. And you've got nominal, and then give it the default process, which is what you should do, because there really isn't any…
+
+375
+00:34:48.550 --> 00:34:52.939
+Bill Croft: Anything that will give you the telicity of the event in an event nominal.
+
+376
+00:34:54.320 --> 00:34:54.880
+Paul Bontempo: Yeah.
+
+377
+00:34:54.880 --> 00:34:55.510
+Julia Bonn: Yep.
+
+378
+00:34:57.010 --> 00:35:04.070
+Paul Bontempo: That's good to know, though, that it's an issue with the, like, internal structure that's allowed for that event.
+
+379
+00:35:04.920 --> 00:35:05.800
+Julia Bonn: Yeah.
+
+380
+00:35:06.020 --> 00:35:08.820
+Bill Croft: By the way, is somebody taking notes on all these, sort of.
+
+381
+00:35:10.500 --> 00:35:11.649
+Julia Bonn: We have a recording.
+
+382
+00:35:11.650 --> 00:35:13.420
+Bill Croft: Oh, that's right. Okay, go ahead.
+
+383
+00:35:14.060 --> 00:35:15.069
+Bill Croft: This is what I tell my students.
+
+384
+00:35:16.050 --> 00:35:28.359
+Bill Croft: when they're coding, like, typological data, I tell them, you can't just go and make a… discuss it with me or with somebody else, and come to a decision, and then not write down the way you got to that decision.
+
+385
+00:35:28.360 --> 00:35:29.470
+Paul Bontempo: Yeah. Yeah.
+
+386
+00:35:29.470 --> 00:35:32.719
+Bill Croft: Because then you're gonna have the same problem all over again the next time.
+
+387
+00:35:33.000 --> 00:35:41.339
+Paul Bontempo: And real quick then, if we don't mind, just to double check so we can make sure we can apply this correctly in other places, I pulled up the tax break example on my screen.
+
+388
+00:35:41.340 --> 00:35:42.050
+Bill Croft: Burr.
+
+389
+00:35:42.220 --> 00:35:51.010
+Paul Bontempo: So… I guess for both tax and break, although I… let me expand the… what the actual,
+
+390
+00:35:52.360 --> 00:35:55.150
+Paul Bontempo: tags were that we put.
+
+391
+00:35:55.660 --> 00:36:02.800
+Paul Bontempo: But do these then seem like reasonable annotations of… Process, and none.
+
+392
+00:36:03.290 --> 00:36:07.440
+Bill Croft: Yeah. Well, process for the first one. What's the sentence for the second one?
+
+393
+00:36:07.680 --> 00:36:10.939
+Paul Bontempo: It's the same sentence, it's just the… it's breaking.
+
+394
+00:36:10.940 --> 00:36:12.960
+Bill Croft: Oh, a different UMR there?
+
+395
+00:36:13.180 --> 00:36:14.400
+Bill Croft: I think.
+
+396
+00:36:14.800 --> 00:36:15.220
+Julia Bonn: Yeah, it'.
+
+397
+00:36:15.220 --> 00:36:15.610
+Bill Croft: Fox.
+
+398
+00:36:16.540 --> 00:36:17.079
+Paul Bontempo: I think it's
+
+399
+00:36:17.530 --> 00:36:23.000
+Paul Bontempo: Yeah, they broke out the tax from the tax break, and then, obviously, the break from the tax break.
+
+400
+00:36:23.430 --> 00:36:26.380
+Paul Bontempo: Or breaks, plural in this case.
+
+401
+00:36:27.190 --> 00:36:27.940
+Julia Bonn: Yeah.
+
+402
+00:36:29.120 --> 00:36:39.290
+Julia Bonn: Yeah, this is another case where, like, I think half of the graphs it's gonna see are gonna have arg1, you know, thing ARG1 of tax01.
+
+403
+00:36:39.430 --> 00:36:46.980
+Julia Bonn: And then half of them are just gonna have tax, because annotators get really sick of writing it out the long way.
+
+404
+00:36:46.980 --> 00:36:49.830
+Bill Croft: But again, I'm sorry, I can't find the difference between the…
+
+405
+00:36:50.280 --> 00:36:55.329
+Bill Croft: the graph in the… under lobby here, they look the same.
+
+406
+00:36:55.330 --> 00:36:58.110
+Julia Bonn: They're the same graph, right?
+
+407
+00:36:59.040 --> 00:37:00.340
+Paul Bontempo: Yes, they should be, I think.
+
+408
+00:37:00.790 --> 00:37:05.229
+Bill Croft: Okay, well then, why is the first one processed and the second one none?
+
+409
+00:37:05.540 --> 00:37:07.449
+Julia Bonn: Because the top one is break.
+
+410
+00:37:07.660 --> 00:37:09.010
+Julia Bonn: Break is the predicate.
+
+411
+00:37:09.010 --> 00:37:16.699
+Bill Croft: Oh, oh, right, the other one's taxed. Okay, yeah, all right, yes, that's consistent with what you just decided for the subsidy example.
+
+412
+00:37:17.980 --> 00:37:20.629
+Julia Bonn: I think that's how… that's how I would do these.
+
+413
+00:37:21.220 --> 00:37:28.229
+Paul Bontempo: Fantastic. And it's nice to have a clear example where we don't even need, like, other sentences context, it's all at least in the graph to make that.
+
+414
+00:37:28.230 --> 00:37:28.850
+Julia Bonn: Yeah.
+
+415
+00:37:29.980 --> 00:37:31.940
+Paul Bontempo: So, we'll call that a win.
+
+416
+00:37:33.490 --> 00:37:36.389
+Bill Croft: And going back to your… now the next one.
+
+417
+00:37:36.390 --> 00:37:38.139
+Paul Bontempo: Yeah, well, we can go on to this next.
+
+418
+00:37:38.140 --> 00:37:40.369
+Bill Croft: Well, the next one is the green, is that it?
+
+419
+00:37:42.270 --> 00:37:43.220
+Bill Croft: Oh, no, no, that's…
+
+420
+00:37:43.220 --> 00:37:55.059
+Paul Bontempo: If you live in an area with relatively inexpensive health plans, low and moderate-income people in your area will receive smaller government subsidies than their similarly situated identical twins who live in relatively high-cost areas.
+
+421
+00:37:55.270 --> 00:38:02.629
+Paul Bontempo: Is this also subsidized? Yeah. Yeah, so it's the same event, but I think it's different in the graph. Yeah.
+
+422
+00:38:05.780 --> 00:38:08.530
+Julia Bonn: Oh, there it is, yeah, you'll see it.
+
+423
+00:38:08.530 --> 00:38:09.320
+Paul Bontempo: Oh, there it is.
+
+424
+00:38:09.620 --> 00:38:11.950
+Paul Bontempo: So it's, yeah, are going to receive an…
+
+425
+00:38:14.680 --> 00:38:20.719
+Paul Bontempo: I guess this is… so this is the subsidizer, and then… This thing being subsidized is…
+
+426
+00:38:20.940 --> 00:38:21.770
+Bill Croft: Yeah.
+
+427
+00:38:22.070 --> 00:38:24.950
+Julia Bonn: Yeah, that… the people receiving, yeah.
+
+428
+00:38:26.830 --> 00:38:30.800
+Paul Bontempo: So then, now we should change this to match the previous example, we should make this a.
+
+429
+00:38:30.800 --> 00:38:32.120
+Bill Croft: Yeah, I think so.
+
+430
+00:38:32.310 --> 00:38:32.960
+Paul Bontempo: Gotcha.
+
+431
+00:38:33.120 --> 00:38:39.470
+Paul Bontempo: And do we want none as the secondary option? Should we just leave no… if it's kind of cut and dry that it's processed, we can…
+
+432
+00:38:39.640 --> 00:38:46.209
+Bill Croft: I think, yeah, you could probably remove none from both of those, because that really just would require a whole redoing of the graph.
+
+433
+00:38:46.600 --> 00:38:49.280
+Julia Bonn: Rejigging it as the argument instead of the…
+
+434
+00:38:49.280 --> 00:38:50.270
+Bill Croft: event nominal.
+
+435
+00:38:53.140 --> 00:38:59.660
+Paul Bontempo: Greed is when you are wealthy and lobby your representatives for special tax breaks because you are over 60 years of age.
+
+436
+00:39:00.690 --> 00:39:04.680
+Paul Bontempo: Yeah, I think this was the same, I, or no, this is something different, because this is…
+
+437
+00:39:04.680 --> 00:39:06.260
+Julia Bonn: So, age. This is age.
+
+438
+00:39:07.640 --> 00:39:10.369
+Paul Bontempo: But it's from the same sentence. Yeah, same sentence.
+
+439
+00:39:10.560 --> 00:39:11.720
+Paul Bontempo: So…
+
+440
+00:39:12.150 --> 00:39:14.620
+Julia Bonn: Oh, yeah, that age? .
+
+441
+00:39:14.620 --> 00:39:18.659
+Paul Bontempo: preventive. I don't know why we were unsure. I can't recall on this one.
+
+442
+00:39:18.660 --> 00:39:19.290
+Julia Bonn: Whoa!
+
+443
+00:39:19.290 --> 00:39:22.560
+Paul Bontempo: 50 years of age. I guess you are…
+
+444
+00:39:23.070 --> 00:39:24.659
+Paul Bontempo: No, you don't think it's inventive?
+
+445
+00:39:25.930 --> 00:39:32.030
+Julia Bonn: I think that these are supposed to get replaced with have age 91.
+
+446
+00:39:32.030 --> 00:39:34.259
+Paul Bontempo: Oh, okay. Is that one of the changes in the…
+
+447
+00:39:34.260 --> 00:39:35.090
+Julia Bonn: Yeah.
+
+448
+00:39:35.090 --> 00:39:36.649
+Paul Bontempo: It's a separate issue entirely.
+
+449
+00:39:36.650 --> 00:39:37.340
+Julia Bonn: Yeah.
+
+450
+00:39:38.230 --> 00:39:44.080
+Paul Bontempo: So then, do we want to just leave these ones flagged, and then we can decide later if we want to pull them out?
+
+451
+00:39:44.550 --> 00:39:50.659
+Paul Bontempo: Because that would… Because obviously, it's not an issue in terms of how we're annotating it.
+
+452
+00:39:52.320 --> 00:40:00.649
+Paul Bontempo: we can figure out at a later… because I think there were also some other examples, like, I forget if it was, say, 01 or 91 that we were going to ask about later, because, of course.
+
+453
+00:40:01.000 --> 00:40:04.799
+Paul Bontempo: things. Right. And that's a structured. And so those, like, those are just…
+
+454
+00:40:04.980 --> 00:40:13.170
+Paul Bontempo: different… a different kind of issue that we don't need to worry about right now. And if they're not going to be represented in the future, you know, more releases, it's not relevant. Okay.
+
+455
+00:40:13.170 --> 00:40:13.830
+Julia Bonn: Yeah.
+
+456
+00:40:14.010 --> 00:40:17.320
+Paul Bontempo: Well then, yeah, we'll just flag this, and…
+
+457
+00:40:18.210 --> 00:40:25.060
+Paul Bontempo: Do you want to add, like, a comment later to… in the main list? I have a note about the 91, so I'll add the age… Just age 01, yeah.
+
+458
+00:40:25.780 --> 00:40:34.380
+Paul Bontempo: And we'll just ignore those. I don't think there are too many of them in the dataset, so it won't decrease our… Yeah, at least for this one, I don't know… Available examples. But yeah, we don't need to worry about it right now.
+
+459
+00:40:34.590 --> 00:40:47.839
+Paul Bontempo: And then, okay, here's the… the soccer match, I remember this one. This early morning, the soccer match between the Chinese women's team and the Korean team had indeed made me excited. I was surprised by the match's brilliance, and I also gained a new understanding of the Korean team.
+
+460
+00:40:48.150 --> 00:40:50.240
+Paul Bontempo: We're looking at MATCH03,
+
+461
+00:40:50.940 --> 00:40:56.939
+Paul Bontempo: And I think, again, we were split on, like, is this an event nominal, or is it actually an event?
+
+462
+00:40:57.510 --> 00:41:00.570
+Paul Bontempo: Or, you know, predicate.
+
+463
+00:41:00.690 --> 00:41:09.299
+Paul Bontempo: Because… Yeah, it's unclear if we're talking about it as, like.
+
+464
+00:41:09.790 --> 00:41:19.159
+Paul Bontempo: the soccer match as in the game that they played, or the pair, like, match in the sense of pair two teams together? Because I think Macho 3 specifically is…
+
+465
+00:41:19.530 --> 00:41:21.150
+Paul Bontempo: I don't remember in PropBank.
+
+466
+00:41:21.510 --> 00:41:22.979
+Julia Bonn: Let me look at that.
+
+467
+00:41:23.220 --> 00:41:24.959
+Julia Bonn: Which one doesn't match with Ray?
+
+468
+00:41:27.090 --> 00:41:31.310
+Julia Bonn: I have the website open. Okay, this is… this is competition.
+
+469
+00:41:31.470 --> 00:41:32.610
+Paul Bontempo: Okay.
+
+470
+00:41:33.730 --> 00:41:42.050
+Paul Bontempo: So then, if it's competition and not in the sense of pairing two things together, that would be an event nominal in this case, right? If we're talking about the soccer match.
+
+471
+00:41:42.430 --> 00:41:43.840
+Paul Bontempo: And that would go to process.
+
+472
+00:41:44.240 --> 00:41:45.250
+Paul Bontempo: That would be my understanding.
+
+473
+00:41:45.250 --> 00:41:54.239
+Bill Croft: Yeah, it's definitely an event nominal, so let me ask you guys something. So, you know, you're taking a default for event nominals to be processed, and part of it is
+
+474
+00:41:54.340 --> 00:41:56.639
+Bill Croft: It's a super challenge to figure out.
+
+475
+00:41:57.190 --> 00:42:01.999
+Bill Croft: in general, whether it's, you know, a TELOC event or not,
+
+476
+00:42:02.110 --> 00:42:06.080
+Bill Croft: But do you allow yourself the possibility of giving a more precise
+
+477
+00:42:06.750 --> 00:42:10.099
+Bill Croft: Annotation, if you have some reason to believe that it is
+
+478
+00:42:10.480 --> 00:42:17.739
+Bill Croft: TELIC, for example, because in this case, it looks like it's a past tense of a soccer match, so the match is over.
+
+479
+00:42:18.600 --> 00:42:19.070
+Julia Bonn: Yeah, Bill.
+
+480
+00:42:19.070 --> 00:42:19.950
+Bill Croft: Completed.
+
+481
+00:42:20.150 --> 00:42:22.949
+Julia Bonn: So you could call it a performance if you want to…
+
+482
+00:42:22.950 --> 00:42:27.650
+Bill Croft: Do that, or if you want to just fall back on process, that's… Fine, also.
+
+483
+00:42:28.800 --> 00:42:32.340
+Paul Bontempo: I think our understanding was because the…
+
+484
+00:42:32.630 --> 00:42:47.159
+Paul Bontempo: The, like, GitHub UMR guidelines were specifying that any event nominal should default to process, that we were doing that. But obviously, as you can see from the annotator that put performance, we had the same thought process.
+
+485
+00:42:47.610 --> 00:42:47.990
+Julia Bonn: Yeah.
+
+486
+00:42:48.610 --> 00:42:53.399
+Paul Bontempo: So I guess that would then just become a question of if we want to differentiate from
+
+487
+00:42:53.560 --> 00:43:00.109
+Paul Bontempo: the guidelines in that way, or if we want to leave it, and I… I'm not gonna try to…
+
+488
+00:43:00.210 --> 00:43:04.980
+Bill Croft: Well, okay, I'm looking at the GitHub, the pros, and it says.
+
+489
+00:43:05.130 --> 00:43:13.800
+Bill Croft: Events expressed as novels often lack any grammatical clues as to their spectral structure. This makes determining the spectral annotation value difficult.
+
+490
+00:43:14.090 --> 00:43:24.739
+Bill Croft: So if you're looking just at grammatical cues, then yeah, that's a problem. I mean, you know, the safe thing is to say process. You'd have to use other cues, like…
+
+491
+00:43:25.200 --> 00:43:31.750
+Bill Croft: what I just said, well, you know, we describe this as a competition and not just a pairing of teams, and we know it's in the past.
+
+492
+00:43:32.050 --> 00:43:39.360
+Bill Croft: It seems to have been… completed. You know, we're using contextual knowledge, we could narrow it down to performance.
+
+493
+00:43:40.810 --> 00:43:52.199
+Julia Bonn: Yeah, and since this is a semantics project, not a grammatical labeling project, I mean, I… like, that's what I do. I… if I think that I can pinpoint it as a performance that's been completed, I…
+
+494
+00:43:52.310 --> 00:43:53.619
+Julia Bonn: That's what I do.
+
+495
+00:43:54.360 --> 00:44:03.109
+Bill Croft: Yeah, and that's, you know, we are using information like this early morning, so I have a temporal location associated with this event.
+
+496
+00:44:04.030 --> 00:44:07.020
+Bill Croft: And… It's, you know, and it's passed…
+
+497
+00:44:07.490 --> 00:44:10.939
+Bill Croft: With respect to the, you know, the document time.
+
+498
+00:44:11.750 --> 00:44:27.670
+Paul Bontempo: Yeah. I think… I totally agree that… I think it is pretty clear from the context of, even just within the sentence, we can surmise that it's… it could be more specific than a process as a performance. When we were doing the original annotation effort with all eight annotators.
+
+499
+00:44:27.670 --> 00:44:46.329
+Paul Bontempo: I think to keep it as simple as possible, and only use the process label for anything that was a nominal, because we were seeing in our initial, like, test set of annotations, we saw a lot of… a very, very low inter-annotator agreement, because we had people from more or less, you know, lexical semantics backgrounds and stuff.
+
+500
+00:44:46.330 --> 00:44:48.420
+Paul Bontempo: Yeah. So, I think as far as
+
+501
+00:44:48.630 --> 00:44:59.559
+Paul Bontempo: human annotation, that was what we chose, but it wouldn't be unreasonable for us to go back through and modify if we think that there's a clear, more specific label than process for a nominal to add that in.
+
+502
+00:44:59.560 --> 00:44:59.910
+Bill Croft: Yeah.
+
+503
+00:44:59.910 --> 00:45:00.460
+Paul Bontempo: We've.
+
+504
+00:45:00.460 --> 00:45:11.930
+Bill Croft: It is true that, as somebody, I guess it was Binette said, that the GitHub guidelines say, do it, make it all, make them all processes, don't even think about it, so to speak. So.
+
+505
+00:45:11.930 --> 00:45:12.649
+Paul Bontempo: Let me keep it for now.
+
+506
+00:45:12.650 --> 00:45:17.589
+Bill Croft: you know, that's a reasonable thing, but yeah, what you're putting down right now looks right. Performance first.
+
+507
+00:45:17.700 --> 00:45:28.340
+Paul Bontempo: August was suggesting that for now we leave it with process first, and then we'll flag it and go back and apply that rule to any event nominals we see where there's a clear…
+
+508
+00:45:28.960 --> 00:45:31.459
+Bill Croft: Oh, okay, yeah, yeah, that sounds fine.
+
+509
+00:45:32.230 --> 00:45:43.270
+Paul Bontempo: Yeah, just because I think it would be good to figure out if we… like, I… obviously, in… to create the best data we can, it'd probably be the best thing to do, but we also need to figure out if that's what we want to do.
+
+510
+00:45:43.370 --> 00:45:55.520
+Paul Bontempo: time-wise as well. Right, yeah, depending on how much… how much time we have. They're constraints. Yeah. But definitely for, like, future guidelines, and we can talk about that in the paper, like, that would be a good change to make. Yeah.
+
+511
+00:45:56.250 --> 00:46:03.360
+Paul Bontempo: limitations, man. Gotta love them. Great. Well, that was, I think, really helpful, because we identified a couple of
+
+512
+00:46:03.680 --> 00:46:10.629
+Paul Bontempo: broader rules from these that we can apply to the rest of the data, at least suggest that they be applied to the rest of the data.
+
+513
+00:46:11.100 --> 00:46:13.470
+Paul Bontempo: On future rounds of annotation.
+
+514
+00:46:14.170 --> 00:46:22.909
+Paul Bontempo: And I don't think we need to bother with the other 48, because I think a lot of those are going to be repeats of these rules, and it took us almost an hour to go over these 8, so…
+
+515
+00:46:22.910 --> 00:46:27.530
+Bill Croft: Yeah, and also, I think with the 48, you can… if you've grouped them, you know…
+
+516
+00:46:27.530 --> 00:46:28.030
+Julia Bonn: Yeah.
+
+517
+00:46:28.030 --> 00:46:33.019
+Bill Croft: Yeah. If there are families of problematic sentences, then it might be easier to go through them.
+
+518
+00:46:33.370 --> 00:46:42.650
+Paul Bontempo: Yeah, but I think many of them do fall under, broader categories of these, yeah. If we can resolve them, and if not, then we can have a smaller meeting or whatever.
+
+519
+00:46:42.650 --> 00:46:45.110
+Bill Croft: I can have a follow-up meeting, that's not… I'm…
+
+520
+00:46:45.420 --> 00:46:52.719
+Bill Croft: I'm actually in a… well, this month I'm kind of busy, but I'm actually going through a period where I actually might have a little bit more time.
+
+521
+00:46:53.190 --> 00:46:56.790
+Bill Croft: Or at least I wouldn't be traveling as much as I have been.
+
+522
+00:46:57.180 --> 00:46:59.800
+Bill Croft: So it'd be easier to schedule one of these things.
+
+523
+00:47:00.220 --> 00:47:02.690
+Paul Bontempo: Fantastic. Like us? Yeah.
+
+524
+00:47:02.700 --> 00:47:15.359
+Paul Bontempo: Great. Well, thank you all so much for helping us, you know, resolve these, because it is… we get so, like, wrapped up in our own heads about the annotation and, like, going in circles, so thank you. And,
+
+525
+00:47:15.360 --> 00:47:24.620
+Paul Bontempo: do we want to ask, with the last 8 minutes, if there's any consensus on what to do for the type that's the, like, the SEO1 or 91 age? Sure, yeah.
+
+526
+00:47:24.620 --> 00:47:26.969
+Bill Croft: What's an example? Do you have an example?
+
+527
+00:47:26.970 --> 00:47:29.819
+Paul Bontempo: I'll pull one up real quick.
+
+528
+00:47:29.820 --> 00:47:30.460
+Bill Croft: Okay.
+
+529
+00:47:31.190 --> 00:47:37.930
+Paul Bontempo: I have to remember if I have the right code for it, but I… Bang… So…
+
+530
+00:47:38.740 --> 00:47:41.580
+Paul Bontempo: Do you guys remember, is it 91 or 01 for quotes?
+
+531
+00:47:41.580 --> 00:47:45.840
+Julia Bonn: It's… so, hopefully they've all been retrofitted to 91.
+
+532
+00:47:45.840 --> 00:47:46.520
+Paul Bontempo: Bye.
+
+533
+00:47:47.940 --> 00:47:56.270
+Julia Bonn: Any instances of, say, 01 should theoretically be actual speaking events now, so, they should probably be.
+
+534
+00:47:56.480 --> 00:47:58.500
+Julia Bonn: performances.
+
+535
+00:47:59.050 --> 00:48:02.090
+Paul Bontempo: Because we, we, we, the issue was that,
+
+536
+00:48:02.160 --> 00:48:27.090
+Paul Bontempo: initially, we, you know, were just going through these, and I think, you know, if someone saw, say, 91 or, say, whatever it was, it made sense almost always that it would be performance, so that's how they got labeled. And then in one of the last few meetings we'd had with Binet, she was mentioning that there was a chance that things were going to be getting changed in some capacity, because it came up for us that, obviously, if we're doing an automated system.
+
+537
+00:48:27.210 --> 00:48:37.489
+Paul Bontempo: there's no marker other than potentially sometimes there are quotation marks, but not all the examples had them. So it was then a question of how we want to handle those instances.
+
+538
+00:48:37.630 --> 00:48:39.279
+Paul Bontempo: So…
+
+539
+00:48:39.280 --> 00:48:40.969
+Julia Bonn: If there's a… oh, sorry.
+
+540
+00:48:40.970 --> 00:48:42.930
+Paul Bontempo: But, yeah, that was… Chip.
+
+541
+00:48:43.210 --> 00:48:51.719
+Julia Bonn: If there's no verb, say, or, you know, predicate say in the sentence, I would not do an aspectual annotation for it.
+
+542
+00:48:52.640 --> 00:48:54.730
+Paul Bontempo: We label it as none, and just,
+
+543
+00:48:54.730 --> 00:48:55.610
+Julia Bonn: Yeah.
+
+544
+00:48:55.610 --> 00:49:10.569
+Benét Post: That's along the lines of what I was saying, is that they're gonna be removed in some sense, so it doesn't really make sense to have a spectral annotation in this version, since they wouldn't be in the final UMR anyway. It would be, like, evocative.
+
+545
+00:49:11.850 --> 00:49:18.019
+Paul Bontempo: Oh, are all of the 91 events getting removed in… From the UMR framework?
+
+546
+00:49:19.680 --> 00:49:22.700
+Paul Bontempo: What do you mean they would be removed anyway, then?
+
+547
+00:49:22.990 --> 00:49:28.479
+Benét Post: Well, it's not gonna be annotated in this way, like, the structure is different, is what we're saying.
+
+548
+00:49:28.480 --> 00:49:29.090
+Paul Bontempo: I see.
+
+549
+00:49:29.680 --> 00:49:31.659
+Paul Bontempo: Cause then I think the other one was…
+
+550
+00:49:32.940 --> 00:49:45.489
+Paul Bontempo: I can't remember if it was possible… it was one of the possibles that I think we had a similar issue of, and I can't remember if it was just because it was, like, can, and obviously that is different because there's still some aspectual indicator.
+
+551
+00:49:45.930 --> 00:49:47.440
+Julia Bonn: Those are all going away.
+
+552
+00:49:47.440 --> 00:49:48.570
+Paul Bontempo: Oh, they are too, okay.
+
+553
+00:49:48.570 --> 00:49:49.230
+Julia Bonn: Yeah.
+
+554
+00:49:49.230 --> 00:50:02.350
+Paul Bontempo: Gotcha. Okay, so then your recommendation would be, would be for, I think, possible 01 and, say, 91, and then now age 01, although that one's getting changed, but… Yeah, that's gonna be, like, yeah, half age or something. At least for those…
+
+555
+00:50:02.950 --> 00:50:11.699
+Julia Bonn: Age01 is gonna have real instances, though, because when it's used verbally, like, he aged, you know, for whatever reason.
+
+556
+00:50:11.700 --> 00:50:14.129
+Paul Bontempo: But, like, to be of an age, or, you know…
+
+557
+00:50:14.130 --> 00:50:18.179
+Julia Bonn: Yeah, yeah, if it's sensitive to the phrasing.
+
+558
+00:50:18.180 --> 00:50:19.020
+Paul Bontempo: Right?
+
+559
+00:50:20.120 --> 00:50:30.299
+Paul Bontempo: Okay, so then all of those three types of examples, so possible 01, say 91, or age 01, when it's in the context of he is.
+
+560
+00:50:30.300 --> 00:50:30.690
+Julia Bonn: Yeah.
+
+561
+00:50:30.700 --> 00:50:38.400
+Paul Bontempo: But those we can… we… it would be better to just either mark as none or remove from the dataset entirely.
+
+562
+00:50:38.580 --> 00:50:44.690
+Bill Croft: Well, I think it said that the of age type would be replaced with half-age 91.
+
+563
+00:50:44.690 --> 00:50:55.320
+Julia Bonn: Yeah, it'll be replaced with have age 91, and that gets a little bit tricky, because if it is the main predication in the sentence, it might still get an inspectual value. So if you just said he is of an age where
+
+564
+00:50:55.960 --> 00:50:58.140
+Julia Bonn: you know… something.
+
+565
+00:50:58.820 --> 00:51:00.889
+Bill Croft: To be pretty consistently state.
+
+566
+00:51:01.170 --> 00:51:01.950
+Julia Bonn: Yeah.
+
+567
+00:51:02.190 --> 00:51:02.960
+Paul Bontempo: Right.
+
+568
+00:51:02.960 --> 00:51:07.319
+Julia Bonn: So it's really just when it's, like, a modifying phrase and it's not…
+
+569
+00:51:07.870 --> 00:51:13.520
+Paul Bontempo: We can also look to see how many examples there are. Yeah, I don't think there's too many, so it won't be…
+
+570
+00:51:13.520 --> 00:51:14.200
+Julia Bonn: Yeah.
+
+571
+00:51:14.200 --> 00:51:28.230
+Paul Bontempo: But yeah, so then it seems like the rest we should take out, or just… do you think it would be better to… to whomever, to remove them entirely, or to just mark them as none for training purposes? Probably better to mark them as none.
+
+572
+00:51:28.230 --> 00:51:28.950
+Julia Bonn: Yeah.
+
+573
+00:51:28.950 --> 00:51:30.719
+Paul Bontempo: Change the thing later, or, you know.
+
+574
+00:51:30.720 --> 00:51:31.250
+Julia Bonn: Yeah.
+
+575
+00:51:31.250 --> 00:51:39.809
+Paul Bontempo: worry about removing anything from the dataset, just likewise. Obviously, we would have one dataset that's in its entirety, but if we wanted to have a more specific one, yeah.
+
+576
+00:51:40.180 --> 00:51:41.270
+Paul Bontempo: Cool.
+
+577
+00:51:42.400 --> 00:51:43.230
+Paul Bontempo: Good.
+
+578
+00:51:46.180 --> 00:51:54.809
+Paul Bontempo: Yeah, is that… Yeah, that was… I mean, of course there are other things, but I think those are less important, because that was seemingly going to be much more quick to sort out, so…
+
+579
+00:51:55.150 --> 00:51:58.169
+Paul Bontempo: Alright, well, thanks everyone for all the help again.
+
+580
+00:51:58.170 --> 00:51:58.540
+Benét Post: Huh.
+
+581
+00:51:58.800 --> 00:51:59.740
+Bill Croft: You're welcome.
+
+582
+00:52:00.590 --> 00:52:04.289
+Paul Bontempo: Thanks, guys. We'll be in touch about a follow-up meeting. Yeah, maybe in a minute.
+
+583
+00:52:04.290 --> 00:52:04.830
+Bill Croft: Bye.
+
+584
+00:52:05.370 --> 00:52:06.819
+Paul Bontempo: Okay. Thanks so much, Shane.
+
